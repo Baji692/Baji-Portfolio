@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(10, 10, 84);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(34, 34, 114);
+    box-shadow: -1px 6px 3px -6px rgba(0,0,0,0.94);
+-webkit-box-shadow: -1px 6px 3px -6px rgba(0,0,0,0.94);
+-moz-box-shadow: -1px 6px 3px -6px rgba(0,0,0,0.94);
+ 
+}
+
+.img-nav {
+    width: 350px;
+    height: 70px;
+    padding: 15px 20px;
+}
+
+.anchor {
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 22px;
+    position: relative;
+    font-size: 17px;
+
+
+}
+
+.anchor:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.anchor:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.navbar-right {
+    margin-left: 100px;
+}
+
+.navbar-left {
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+
+}
+
+.home-right {
+    width: 50vw;
+    padding-left: 100px;
+}
+
+.home-left {
+    width: 50vw;
+    text-align: right;
+    padding-left: 200px;
+
+}
+
+.home-h1 {
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Headland One', serif;
+    font-weight: bold;
+}
+
+.home-h1 {
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 13px 25px;
+    position: relative;
+}
+
+.home-h1:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.home-h1:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.home-p {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.img-logo {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.services {
+    text-align: center;
+    padding: 50px;
+}
+
+.ser-h1 {
+    font-family: 'Headland One', serif;
+    letter-spacing: 3px;
+    font-size: 44px;
+}
+
+.ser-sub-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.ser-cards {
+    border: 3px solid rgb(99, 99, 220);
+    margin: 35px;
+    width: 400px;
+    padding: 30px;
+}
+
+.cr-h1 {
+    font-size: 30px;
+}
+
+.cr-p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact{
+    text-align: center;
+}
+
+.con-h1{
+    font-family: 'Headland One', serif;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.contact-info{
+    font-family: 'Poppins', sans-serif;
+
+}
+.ci-h1{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.con-p{
+    font-size: 20px;
+}
+
+.social-icon-img{
+    height: 50px;
+    padding: 30px;
+   
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:  rgb(34, 34, 114);
+}
+
+.test-logo{
+    height: 45px;
+}
