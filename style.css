@@ -18,6 +18,13 @@ body {
     box-shadow: -1px 6px 3px -6px rgba(0,0,0,0.94);
 -webkit-box-shadow: -1px 6px 3px -6px rgba(0,0,0,0.94);
 -moz-box-shadow: -1px 6px 3px -6px rgba(0,0,0,0.94);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
  
 }
 
@@ -163,6 +170,14 @@ body {
     margin: 35px;
     width: 400px;
     padding: 30px;
+     /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+
 }
 
 .cr-h1 {
@@ -206,6 +221,13 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     background-color:  rgb(34, 34, 114);
+     /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
 }
 
 .test-logo{
